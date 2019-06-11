@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "FiraSans";
+    src: url("../assets/fonts/firasanscondensed_bold/FiraSansCondensed-Bold-webfont.woff");
+}
+@font-face {
+    font-family: "robotslab_bold";
+    src: url("../assets/fonts/robotoslab_bold/RobotoSlab-Bold-webfont.woff");
+}
+@font-face {
+    font-family: "robotslab_regular";
+    src: url("../assets/fonts/robotoslab_regular/RobotoSlab-Regular-webfont.woff");
+}
+
+#mainSection {
+	display: grid;
+    padding: 10px;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 20px 220px 220px 1fr 1fr 1fr 1fr 20px;
+	background-color: white;
+	height: 100vh;
+}
+
+#mainImage {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 7;
+    grid-row-end: 9;
+    height: 100%;
+    width: 100%;
+}
+.col {
+    background-color: red;
+    grid-row-start: 1;
+	grid-row-end: 5;
+}
+
+#summerDays {
+    grid-column-start: 6;
+    grid-row-start: 1;
+    grid-column-end: 9;
+    grid-row-end: 2;
+    font-size: 150px;
+    font-family: 'FiraSans';
+}
+
+#backgroundColor {
+    background-color: #FBF7EB;
+    font-size: 150px;
+    font-family: 'FiraSans';
+    color: #014262;
+}
+
+#backgroundColor2 {
+    background-color: #FBF7EB;
+    font-size: 150px;
+    font-family: 'FiraSans';
+    color: #014262;
+}
+
+#p1 {
+    grid-column-start: 6;
+    grid-row-start: 1;
+    grid-column-end: 9;
+    grid-row-end: 2;
+    height: 90%;
+}
+
+#p2 {
+    grid-column-start: 6;
+    grid-row-start: 3;
+    grid-column-end: 9;
+    grid-row-end: 4;
+    height: 90%;
+}
+
+#vivamus {
+    font-size: 16px;
+    font-family: 'robotslab_regular';
+    color: #4E4E4E;
+}
+
+#lorem {
+    font-size: 20px;
+    font-family: 'robotslab_bold';
+    color: #014262;
+}
+
+#para1 {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+#paras {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-column-start: 7;
+    grid-row-start: 4;
+    grid-column-end: 12;
+    grid-row-end: 5;
+}
+
+#alex {
+    grid-column-start: 6;
+    grid-row-start: 5;
+    grid-column-end: 8;
+    grid-row-end: 8;
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 1px 3px 5px grey;
+}
+
+#matt {
+    grid-column-start: 8;
+    grid-row-start: 5;
+    grid-column-end: 10;
+    grid-row-end: 8;
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 1px 3px 5px grey;
+}
+
+#chris {
+    grid-column-start: 10;
+    grid-row-start: 5;
+    grid-column-end: 12;
+    grid-row-end: 8;
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 1px 3px 5px grey;
+}
+
+
+@media screen and (max-width: 600px) {
+    #mainSection {
+        display: block;
+        background-color: white;
+    }
+
+    #mainImage {
+        height: 550px;
+        width: 100%;
+    }
+
+    #backgroundColor {
+        position: relative;
+        background-color: #FBF7EB;
+        font-size: 90px;
+        font-family: 'FiraSans';
+        color: #014262;
+    }
+    
+    #backgroundColor2 {
+        background-color: #FBF7EB;
+        font-size: 90px;
+        font-family: 'FiraSans';
+        color: #014262;
+    }
+
+    #p1 {
+        height: 100px;
+        margin-top: -40px; 
+        width: 100%;
+        padding: 0px;
+    }
+    
+    #p2 {
+        height: 100px;
+        margin-top: 60px; 
+        width: 100%;
+        padding: 0px;
+    }
+
+    #paras {
+
+    }
+
+    #vivamus {
+        font-size: 12.31px;
+        font-family: 'robotslab_regular';
+        color: #4E4E4E;
+    }
+    
+    #lorem {
+        font-size: 16px;
+        font-family: 'robotslab_bold';
+        color: #014262;
+    }
+    
+    #para {
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #alex {
+        border-radius: 7px;
+        height: 400px;
+        width: 100%;
+        margin-bottom: 30px;
+        object-fit: cover;
+        box-shadow: 1px 3px 5px grey;
+    }
+    
+    #matt {
+        border-radius: 7px;
+        height: 400px;
+        width: 100%;
+        margin-bottom: 30px;
+        object-fit: cover;
+        box-shadow: 1px 3px 5px grey;
+    }
+    
+    #chris {
+        border-radius: 7px;
+        height: 400px;
+        width: 100%;
+        margin-bottom: 30px;
+        object-fit: cover;
+        box-shadow: 1px 3px 5px grey;
+    }
+}
