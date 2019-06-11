@@ -50,6 +50,8 @@
     font-size: 150px;
     font-family: 'FiraSans';
     color: #014262;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #backgroundColor2 {
@@ -57,6 +59,8 @@
     font-size: 150px;
     font-family: 'FiraSans';
     color: #014262;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #p1 {
